@@ -111,4 +111,18 @@ const SAMPLE_DATA : PropertyListingProps[] = [
     },
     {
       propertyName: "Emerald Bay Cottage",
+      location: {
+        street: "852 Emerald Bay Road",
+        city: "Lake Tahoe",
+        country: "USA"
+      },
+      rate: 4.88,
+      currency: "$",
+      amount: 540,
+      favorite: true
+    },
+];
 
+const FILTERS = ["House", "Apartment", "Beach house", "Cabins", "Countryside", "Mansion", "Villa"];
+
+export { SAMPLE_DATA, FILTERS };

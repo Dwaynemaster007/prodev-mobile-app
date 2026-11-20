@@ -21,7 +21,7 @@ export default function Join() {
   const handleJoin = () => {
     // placeholder — replace with registration logic
     console.log("join:", { fullName, email, password });
-    router.push("signin"); // after signup navigate to sign in or dashboard
+    router.push("/signin"); // after signup navigate to sign in or dashboard
   };
 
   return (
@@ -94,7 +94,7 @@ export default function Join() {
 
         <View style={joinStyles.signupgroup}>
           <Text style={joinStyles.signupTitleText}>Already have an account? </Text>
-          <TouchableOpacity onPress={() => router.push("signin")}>
+          <TouchableOpacity onPress={() => router.push("/signin")}>
             <Text style={joinStyles.signupSubTitleText}>Sign in</Text>
           </TouchableOpacity>
         </View>

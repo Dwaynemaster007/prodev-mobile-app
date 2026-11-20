@@ -39,7 +39,7 @@ export default function Index() {
           <View style={mainStyles.buttonGroup}>
             <TouchableOpacity
               accessibilityLabel="Get started"
-              onPress={() => router.push("join")}
+              onPress={() => router.push("/join")}
               style={[mainStyles.buttonPrimary, { marginRight: 8 }]}
             >
               <Text style={mainStyles.buttonPrimaryText}>Get Started</Text>
@@ -47,7 +47,7 @@ export default function Index() {
 
             <TouchableOpacity
               accessibilityLabel="Sign in"
-              onPress={() => router.push("signin")}
+              onPress={() => router.push("/signin")}
               style={[mainStyles.buttonSecondary, { marginLeft: 8 }]}
             >
               <Text style={mainStyles.buttonSecondaryText}>Sign In</Text>
